@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(../background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .logo{
+    padding-left: 14px;
+}
+
+
+
+.header  .logo div img{
+    width: 100%;
+    height: 100%;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header  .logo div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.header .logo span{
+    color: black;
+    font-size: 33px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.header .login{
+    color: #E33E57;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #E33E57;
+    border-radius: 15px;
+    padding: 9px 22px;
+    margin-right: 8px;
+    transition: .4s;
+}
+.header .login:hover{
+    color: white;
+    background-color: #E33E57;
+    border: 2px solid white;
+    box-shadow: 0 0 7px 4px #E33E57;
+}
+
+
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0 15px ;
+}
+section .nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+
+section .nav-icons i{
+    color: black;
+    margin: 0 5px;
+    font-size: 19px;
+    transition: 0.3s;
+}
+section .nav-icons i:hover{
+    color: #E33E57;
+    cursor: pointer;
+}
+
+.container .navbar ul li a:hover{
+    transition: .3s;
+    color: #E33E57;
+    font-size: 17px;
+}
+.container .navbar ul li a:hover:after{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.category{
+    margin-bottom: 200px;
+}
+.category h1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.category .cat-games{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.category .cat-games a div{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+}
+.category .cat-games a div:hover{
+    border: 2px solid #E33E57;
+    scale: 1.1;
+    box-shadow: 0 0 11px 6px rgba(227, 62, 87, 0.3);
+}
+.category .cat-games a{
+    color: white;
+    text-decoration: none;
+}
+.category .cat-games a div p{
+    text-align: center;
+    background-color: #05060763;
+    opacity: 0;
+    transition: 0.4s;
+}
+.category .cat-games a div:hover p{
+    opacity: 1;
+}
+
+
+.category .cat-games a .sea-of-thieves{
+    background-image: url(sea-of-thieves/sea-of-thieves.jpg);
+}
+.category .cat-games a .dota-2{
+    background-image: url(dota-2/dota-2.jpg);
+}
+.category .cat-games a .rocket{
+    background-image: url(rocket-league/rocket-league.webp);
+}
+.category .cat-games a .counter-strike{
+    background-image: url(counter-strike/counter-strike.webp);
+    
+}
+.category .cat-games a .league{
+    background-image: url(league/league.jpg);
+}
+.category .cat-games a .fortnite{
+    background-image: url(../top-this-weeknd/Fortnite/Fortnite.jpg);
+}
+
+
+.category .cat-games a .minecraft{
+    background-image: url(../rpg/Minecraft/Minecraft.webp);
+}
+.category .cat-games a .valorant{
+    background-image: url(../top-this-weeknd/valorant/valorant.webp);
+}
+.category .cat-games a .cod-warzone{
+    background-image: url(cod-warzone/cod-warzone.jpg);
+}
+
+.category .cat-games a .it-takes-two{
+    background-image: url(../action/it-takes-two/it-takes-two.jfif);
+    
+}
+.category .cat-games a .destiny{
+    background-image: url(../preorders/destiny/destiny2.jpg);
+}
+.category .cat-games a .ark-survival{
+    background-image: url(ark-survival/ark-survival.jpg);
+    background-position: right;
+}
+
+.category .cat-games a .overwatch{
+    background-image: url(overwatch/overwatch.png);
+}
+.category .cat-games a .valheim{
+    background-image: url(valheim/valheim.jfif);
+
+}
+.category .cat-games a .cod-mw{
+    background-image: url(../preorders/cod-mw2/cod-mw.jpg);
+
+}
+.category .cat-games a .guys{
+    background-image: url(guys/guys.jfif);
+
+}
+.category .cat-games a .apex{
+    background-image: url(../rpg/apex-legend/apex.png);
+
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+footer .consoles, footer .quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div{
+    width: 300px;
+    
+    
+}
+
+footer div h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer div p, footer div a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+}
+
+footer div p{
+    width: 240px;
+    padding-left: 10px;
+}
+
+footer div a{
+    width: fit-content;
+    color: #24262C;
+}
+footer div a i{
+    color: #E33E57;
+    font-size: 15px;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../background-form.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: #D3D3D3;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.container .form-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.container .form-title h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.container .form-title div i{
+    font-size: 36px;
+}
+
+.container .card-details{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+.container .input-box input{
+    
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #D3D3D3;
+    padding: 20px 45px 20px 20px;
+}
+.container .input-box div{
+    width: 45px;
+    height: 35px;
+}
+.container .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    transition: .4s;
+}
+.container .input-box i:hover{
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.container .input-box-ii{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    gap: 15px;
+
+}
+.container .input-box-ii .exp-cvv{
+    position: relative;
+    width: 49%;
+    height: 50px;
+    
+    
+}
+.container .input-box-ii div input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #D3D3D3;
+    padding: 20px 45px 20px 20px;
+    
+
+}
+.container .input-box-ii div i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    transition: .4s;
+}
+.container .input-box-ii div i:hover{
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-box input::placeholder, .input-box-ii div input::placeholder {
+    color: #D3D3D3;
+}
+
+.container .save p{
+    font-size: 14px;
+    margin: 0 5px;
+}
+.container label input{
+    margin: 0 7px;
+}
+
+.container .btn{
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    background-color: #D3D3D3;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s;
+}
+.container .btn:hover{
+    box-shadow: 0 0 3px 3px #19212C;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

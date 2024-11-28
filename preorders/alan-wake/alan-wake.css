@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+}
+
+.container{
+    padding: 20px;
+}
+.container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+
+}
+ header ul{
+    display: flex;
+}
+ header ul li{
+    list-style-type: none;
+    margin: 0 15px ;
+}
+ header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s;
+}
+ header ul li a:hover{
+     color: #E33E57;
+     text-decoration: underline #E33E57 2px;
+     transition: .3s;
+}
+
+
+header .login{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 9px 22px;
+    margin-right: 8px;
+    transition: .4s;
+}
+header .login:hover{
+    color: white;
+    background-color: #E33E57;
+    border: 2px solid white;
+    box-shadow: 0 0 7px 4px #E33E57;
+}
+
+.container-son{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    height: 80vh;
+    color: #fff;
+}
+.container-son .game-infos{
+    margin-left: 15px;
+}
+.container-son .game-infos .price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.container-son .game-infos h2{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.container-son .game-infos .rating{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.container-son .game-infos .rating div i{
+    font-size: 20px;
+}
+
+
+.container-son .game-infos .icons-btn .icons i{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.container-son .game-infos .icons-btn{
+    display: flex;
+    gap: 30px;
+}
+.icons-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.icons-btn a button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 10px;
+    background-color: #62D2A2;
+    color: #fff;
+    border: none;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+.icons-btn a button:hover{
+    box-shadow: 0 0 4px 4px #62D2A2;
+    border: 1px solid white;
+}
+
+
+
+.container-son .scenes h2{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.scenes div{
+    margin-bottom: 7px;
+    
+}
+
+.container .container-son .scenes div{
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+    opacity: 0.7;
+    transition: .4s ease;
+}
+.container .container-son .scenes div:hover{
+    opacity: 1;
+    scale: 1.02;
+}
+.container .container-son .scenes .img-one{
+    
+    background-image: url(wall-one.jpeg);
+    background-size: cover;
+    
+}
+.container .container-son .scenes .img-two{
+    
+    background-image: url(wall-two.jpeg);
+    background-size: cover;
+    background-position: right;
+}
+.container .container-son .scenes .img-three{
+    
+    background-image: url(wall-three.jpeg);
+    background-size: cover;
+}
+
+
+.info{
+    margin: 50px 15px;
+}
+
+@media (max-width:356px){
+    .container-son{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .rating, .icons-btn{
+        flex-direction: column;
+    }
+    .icons-btn{
+        align-items: start;
+        margin-left: 0;
+    }
+    header ul li a{
+        display: none;
+    }
+    header ul li .home{
+        display: inline;
+    }
+    header .login{
+        font-size: 12px;
+    }
+}
+@media (min-width:357px) and (max-width:669px){
+    .container-son{
+        flex-direction: column;
+        align-items: center; 
+    }
+    header ul li a{
+        display: none;
+    }
+    header ul li .home{
+        display: inline;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 600;
+        border: 2px solid #fff;
+        border-radius: 15px;
+        padding: 9px 22px;
+        margin-right: 8px;
+        transition: .4s;
+    }
+    header .login{
+        font-size: 12px;
+    }
+}

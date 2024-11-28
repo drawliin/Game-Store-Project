@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    background: url(background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .logo{
+    padding-left: 14px;
+}
+
+
+
+.header  .logo div img{
+    width: 100%;
+    height: 100%;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header  .logo div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.header .logo span{
+    color: black;
+    font-size: 33px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.header .login{
+    color: #E33E57;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #E33E57;
+    border-radius: 15px;
+    padding: 9px 22px;
+    margin-right: 8px;
+    transition: .4s;
+}
+.header .login:hover{
+    color: white;
+    background-color: #E33E57;
+    border: 2px solid white;
+    box-shadow: 0 0 7px 4px #E33E57;
+}
+
+
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .4s;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0 15px ;
+}
+section .nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+
+section .nav-icons i{
+    color: black;
+    margin: 0 5px;
+    font-size: 19px;
+    transition: 0.3s;
+}
+section .nav-icons i:hover{
+    color: #E33E57;
+    cursor: pointer;
+}
+
+.container .navbar ul li a:hover{
+    transition: .3s;
+    color: #E33E57;
+    font-size: 17px;
+}
+.container .navbar ul li a:hover:after{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.container-son{
+    padding-left: 50px;
+}
+.container-son .elden-home{
+    position: relative;
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+    background-image:  url(New-Releases/elden-ring/eldenring.png);
+    background-size: cover;
+    background-position: center;
+   -webkit-filter: brightness(50%);
+   -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+   
+   
+}
+.container-son .elden-home:hover{
+   -webkit-filter: brightness(100%);
+}
+
+.container-son .elden-home div{
+    position: absolute;
+    bottom: 90px;
+    
+}
+.container-son .elden-home h1, .container-son .elden-home p{
+    margin: 20px 40px;
+}
+.container-son .elden-home h1{
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.container-son .elden-home p{
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    backdrop-filter: blur(6px);
+}
+.container-son .elden-home div .buy{
+    background-color: #E33E57;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: .4s;
+}
+.container-son .elden-home div .buy:hover{
+    scale: 1.05;
+    box-shadow: 0 0 11px 7px rgba(227, 62, 87, 0.467);
+}
+.container-son .elden-home div .trailer{
+    background-color: #24262C;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.container-son .elden-home div .trailer:hover{
+    scale: 1.05;
+    box-shadow: 0 0 11px 7px rgba(252, 252, 252, 0.467);
+}
+.container-son .elden-home button a{
+    text-decoration: none;
+}
+.container-son .elden-home button a i, .container-son .elden-home button a span{
+    color: white;
+    font-size: 15px;
+    margin: 2px 4px ;
+}
+
+.container-son .category{
+    width: 90%;
+}
+.container-son .category .cat-title span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container-son .category .cat-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-bottom: 5px;
+}
+.container-son .category .cat-title a button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition: .4s;
+}
+.container-son .category .cat-title a button:hover{
+    cursor: pointer;
+    background-color: #E33E57;
+    border: 1px solid white;
+    box-shadow: 0 0 11px 7px rgba(227, 62, 87, 0.3);
+    
+}
+.container-son .category .cat-title a{
+    text-decoration: none;
+    color: black;
+}
+.container-son .category .cat-title a:hover button{
+    color: white;
+}
+.container-son .category .cat-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    min-height: 400px;
+    gap: 20px;
+}
+.container-son .category .cat-games-top{
+    min-height: 650px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-content: center;
+}
+.container-son .category .cat-games a div{
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    
+}
+.container-son .category .cat-games a div:hover{
+    border: 2px solid #E33E57;
+    scale: 1.1;
+    box-shadow: 0 0 10px 5px rgba(227, 62, 87, 0.3);
+}
+.container-son .category .cat-games a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.container-son .category .cat-games a div p{
+    text-align: center;
+    background-color: #05060763;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-son .category .cat-games a div button{
+    background-color: #E33E57;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 2px 6px;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+}
+.container-son .category .cat-games a div button i{
+    margin-right: 5px;
+}
+.container-son .category .cat-games a div:hover p , .container-son .category .cat-games a div:hover button {
+    opacity: 1;
+}
+
+
+
+.container-son .category .cat-games a .marvel-spider-man{
+    background-image: url(preorders/spider-man2/marvels\ spider\ man.webp);
+}
+.container-son .category .cat-games a .battlefield{
+    background-image: url(rpg/battlefield/battlefield.webp);
+    
+}
+.container-son .category .cat-games a .alan-wake{
+    background-image: url(preorders/alan-wake/alan-wake.jfif);
+    
+
+}
+.container-son .category .cat-games a .cod-mw3{
+    background-image: url(preorders/cod-mw2/cod-mw.jpg);
+    
+}
+.container-son .category .cat-games a .horizon{
+    background-image: url(preorders/forza-horizon5/forza-horizon.jfif);
+    
+}
+
+
+
+
+.container-son .category .cat-games a .sekiro{
+    background-image: url(New-Releases/sekiro/sekiro.jfif);
+    
+}
+.container-son .category .cat-games a .gow{
+    background-image: url(New-Releases/god-of-war/god-of-war.jfif);
+    
+}
+.container-son .category .cat-games a .elden-ring{
+    background-image: url(New-Releases/elden-ring/eldenring.png);
+    
+}
+.container-son .category .cat-games a .thelast{
+    background-image: url(New-Releases/thelast-of-us/thelast-of-us.jfif);
+    
+}
+.container-son .category .cat-games a .days-gone{
+    background-image: url(New-Releases/days-gone/days-gone.jfif);
+    
+}
+
+
+
+.container-son .category .cat-games a .valorant{
+    background-image: url(top-this-weeknd/valorant/valorant.webp);
+    
+}
+.container-son .category .cat-games a .fortnite{
+    background-image: url(top-this-weeknd/Fortnite/Fortnite.jpg);
+    
+}
+.container-son .category .cat-games a .hogwarts{
+    background-image: url(top-this-weeknd/hogwarts-legacy/hogwarts.jfif);
+    
+}
+.container-son .category .cat-games a .zelda{
+    background-image: url(top-this-weeknd/the-legend-o-zelda/zelda.jfif);
+}
+.container-son .category .cat-games a .rdr{
+    background-image: url(rpg/rdr/rdr.jpg);
+}
+.container-son .category .cat-games a .apex{
+    background-image: url(rpg/apex-legend/apex.png);
+}
+.container-son .category .cat-games a .rocket{
+    background-image: url(multiplayer/rocket-league/rocket-league.webp);
+}
+.container-son .category .cat-games a .league{
+    background-image: url(multiplayer/league/league.jpg);
+}
+.container-son .category .cat-games a .battlefield{
+    background-image: url(rpg/battlefield/battlefield.webp);
+}
+.container-son .category .cat-games a .warzone{
+    background-image: url(multiplayer/cod-warzone/cod-warzone.jpg);
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+footer .consoles, footer .quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div{
+    width: 300px;
+    
+    
+}
+
+footer div h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer div p, footer div a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+}
+
+footer div p{
+    width: 240px;
+    padding-left: 10px;
+}
+
+footer div a{
+    width: fit-content;
+    color: #24262C;
+}
+footer div a i{
+    color: #E33E57;
+    font-size: 15px;
+}
